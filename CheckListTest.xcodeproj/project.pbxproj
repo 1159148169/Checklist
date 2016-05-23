@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B25D4321CB8EFBD00F24E20 /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B25D4311CB8EFBD00F24E20 /* ChecklistItem.swift */; };
+		8B667A661CF1CAD500BDEA41 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B667A611CF1CAD500BDEA41 /* libWeChatSDK.a */; };
+		8B667A671CF1CAD500BDEA41 /* read_me.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8B667A621CF1CAD500BDEA41 /* read_me.txt */; };
+		8B6BFC4F1CF08A6F003720AA /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6BFC4E1CF08A6F003720AA /* AboutViewController.swift */; };
+		8B6BFC531CF08CC5003720AA /* Checklist.html in Resources */ = {isa = PBXBuildFile; fileRef = 8B6BFC521CF08CC5003720AA /* Checklist.html */; };
+		8B6BFC561CF09421003720AA /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8B6BFC541CF09421003720AA /* TencentOpenApi_IOS_Bundle.bundle */; };
+		8B6BFC571CF09421003720AA /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B6BFC551CF09421003720AA /* TencentOpenAPI.framework */; };
+		8B6BFC591CF0946A003720AA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B6BFC581CF0946A003720AA /* Security.framework */; };
+		8B6BFC5B1CF0947C003720AA /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B6BFC5A1CF0947C003720AA /* libiconv.tbd */; };
+		8B6BFC5D1CF09493003720AA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B6BFC5C1CF09493003720AA /* SystemConfiguration.framework */; };
+		8B6BFC5F1CF094A1003720AA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B6BFC5E1CF094A1003720AA /* CoreGraphics.framework */; };
+		8B6BFC611CF094B3003720AA /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B6BFC601CF094B3003720AA /* libsqlite3.tbd */; };
+		8B6BFC631CF094C4003720AA /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B6BFC621CF094C4003720AA /* CoreTelephony.framework */; };
+		8B6BFC651CF094D5003720AA /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B6BFC641CF094D5003720AA /* libstdc++.tbd */; };
+		8B6BFC671CF094E0003720AA /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B6BFC661CF094E0003720AA /* libz.tbd */; };
+		8B6E6E321C8DB284001F724F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6E6E311C8DB284001F724F /* AppDelegate.swift */; };
+		8B6E6E371C8DB284001F724F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B6E6E351C8DB284001F724F /* Main.storyboard */; };
+		8B6E6E391C8DB284001F724F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B6E6E381C8DB284001F724F /* Assets.xcassets */; };
+		8B6E6E441C8DB648001F724F /* CheckListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6E6E431C8DB648001F724F /* CheckListViewController.swift */; };
+		8B9986351CDB546600BFBFF9 /* ItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB473DB1CBE351B00DB4AB1 /* ItemDetailViewController.swift */; };
+		8BA5B5B41CEDB225000F43C9 /* MoreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA5B5B31CEDB225000F43C9 /* MoreTableViewController.swift */; };
+		8BBEC7821CF2FE7A0068E9C0 /* 微信分享图.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BBEC7811CF2FE7A0068E9C0 /* 微信分享图.png */; };
+		8BC367951CDC75B80084AFEC /* AllListsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC367941CDC75B80084AFEC /* AllListsViewController.swift */; };
+		8BC367971CDC8CD10084AFEC /* Checklist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC367961CDC8CD10084AFEC /* Checklist.swift */; };
+		8BE644861CE4A021004AAA14 /* IconPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE644851CE4A021004AAA14 /* IconPickerViewController.swift */; };
+		8BE7AB931CE3517E00E426B0 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE7AB921CE3517E00E426B0 /* DataModel.swift */; };
+		8BF2F4A01CDDF90D00052E1D /* ListDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2F49F1CDDF90D00052E1D /* ListDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8B25D4311CB8EFBD00F24E20 /* ChecklistItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
+		8B667A611CF1CAD500BDEA41 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		8B667A621CF1CAD500BDEA41 /* read_me.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = read_me.txt; sourceTree = "<group>"; };
+		8B667A631CF1CAD500BDEA41 /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		8B667A641CF1CAD500BDEA41 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		8B667A651CF1CAD500BDEA41 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		8B6BFC4E1CF08A6F003720AA /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		8B6BFC521CF08CC5003720AA /* Checklist.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Checklist.html; sourceTree = "<group>"; };
+		8B6BFC541CF09421003720AA /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		8B6BFC551CF09421003720AA /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		8B6BFC581CF0946A003720AA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		8B6BFC5A1CF0947C003720AA /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		8B6BFC5C1CF09493003720AA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8B6BFC5E1CF094A1003720AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8B6BFC601CF094B3003720AA /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		8B6BFC621CF094C4003720AA /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		8B6BFC641CF094D5003720AA /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		8B6BFC661CF094E0003720AA /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		8B6BFC681CF095DC003720AA /* Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
+		8B6E6E2E1C8DB284001F724F /* CheckListTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckListTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B6E6E311C8DB284001F724F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8B6E6E361C8DB284001F724F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B6E6E381C8DB284001F724F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B6E6E3D1C8DB284001F724F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B6E6E431C8DB648001F724F /* CheckListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = CheckListViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		8BA5B5B31CEDB225000F43C9 /* MoreTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreTableViewController.swift; sourceTree = "<group>"; };
+		8BB473DB1CBE351B00DB4AB1 /* ItemDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ItemDetailViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		8BBEC7811CF2FE7A0068E9C0 /* 微信分享图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "微信分享图.png"; sourceTree = "<group>"; };
+		8BC367941CDC75B80084AFEC /* AllListsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllListsViewController.swift; sourceTree = "<group>"; };
+		8BC367961CDC8CD10084AFEC /* Checklist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Checklist.swift; sourceTree = "<group>"; };
+		8BE644851CE4A021004AAA14 /* IconPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconPickerViewController.swift; sourceTree = "<group>"; };
+		8BE7AB921CE3517E00E426B0 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		8BF2F49F1CDDF90D00052E1D /* ListDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListDetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B6E6E2B1C8DB284001F724F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B6BFC671CF094E0003720AA /* libz.tbd in Frameworks */,
+				8B6BFC651CF094D5003720AA /* libstdc++.tbd in Frameworks */,
+				8B6BFC631CF094C4003720AA /* CoreTelephony.framework in Frameworks */,
+				8B6BFC611CF094B3003720AA /* libsqlite3.tbd in Frameworks */,
+				8B667A661CF1CAD500BDEA41 /* libWeChatSDK.a in Frameworks */,
+				8B6BFC5F1CF094A1003720AA /* CoreGraphics.framework in Frameworks */,
+				8B6BFC5D1CF09493003720AA /* SystemConfiguration.framework in Frameworks */,
+				8B6BFC5B1CF0947C003720AA /* libiconv.tbd in Frameworks */,
+				8B6BFC591CF0946A003720AA /* Security.framework in Frameworks */,
+				8B6BFC571CF09421003720AA /* TencentOpenAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B667A601CF1CAD500BDEA41 /* 微信SDK1.6.2 */ = {
+			isa = PBXGroup;
+			children = (
+				8B667A611CF1CAD500BDEA41 /* libWeChatSDK.a */,
+				8B667A621CF1CAD500BDEA41 /* read_me.txt */,
+				8B667A631CF1CAD500BDEA41 /* WechatAuthSDK.h */,
+				8B667A641CF1CAD500BDEA41 /* WXApi.h */,
+				8B667A651CF1CAD500BDEA41 /* WXApiObject.h */,
+			);
+			path = "微信SDK1.6.2";
+			sourceTree = "<group>";
+		};
+		8B6E6E251C8DB284001F724F = {
+			isa = PBXGroup;
+			children = (
+				8B667A601CF1CAD500BDEA41 /* 微信SDK1.6.2 */,
+				8B6BFC681CF095DC003720AA /* Bridge.h */,
+				8B6BFC661CF094E0003720AA /* libz.tbd */,
+				8B6BFC641CF094D5003720AA /* libstdc++.tbd */,
+				8B6BFC621CF094C4003720AA /* CoreTelephony.framework */,
+				8B6BFC601CF094B3003720AA /* libsqlite3.tbd */,
+				8B6BFC5E1CF094A1003720AA /* CoreGraphics.framework */,
+				8B6BFC5C1CF09493003720AA /* SystemConfiguration.framework */,
+				8B6BFC5A1CF0947C003720AA /* libiconv.tbd */,
+				8B6BFC581CF0946A003720AA /* Security.framework */,
+				8B6BFC541CF09421003720AA /* TencentOpenApi_IOS_Bundle.bundle */,
+				8B6BFC551CF09421003720AA /* TencentOpenAPI.framework */,
+				8B6E6E301C8DB284001F724F /* CheckListTest */,
+				8B6E6E2F1C8DB284001F724F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B6E6E2F1C8DB284001F724F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B6E6E2E1C8DB284001F724F /* CheckListTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B6E6E301C8DB284001F724F /* CheckListTest */ = {
+			isa = PBXGroup;
+			children = (
+				8B6E6E311C8DB284001F724F /* AppDelegate.swift */,
+				8BF2F4A11CDDF93400052E1D /* Model */,
+				8BF2F4A31CDDF9A200052E1D /* View */,
+				8BF2F4A21CDDF94100052E1D /* Controller */,
+				8B6E6E381C8DB284001F724F /* Assets.xcassets */,
+				8B6E6E3D1C8DB284001F724F /* Info.plist */,
+			);
+			path = CheckListTest;
+			sourceTree = "<group>";
+		};
+		8BF2F4A11CDDF93400052E1D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8BE7AB921CE3517E00E426B0 /* DataModel.swift */,
+				8BC367961CDC8CD10084AFEC /* Checklist.swift */,
+				8B25D4311CB8EFBD00F24E20 /* ChecklistItem.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8BF2F4A21CDDF94100052E1D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8BBEC7811CF2FE7A0068E9C0 /* 微信分享图.png */,
+				8B6BFC521CF08CC5003720AA /* Checklist.html */,
+				8BA5B5B31CEDB225000F43C9 /* MoreTableViewController.swift */,
+				8BC367941CDC75B80084AFEC /* AllListsViewController.swift */,
+				8BF2F49F1CDDF90D00052E1D /* ListDetailViewController.swift */,
+				8B6E6E431C8DB648001F724F /* CheckListViewController.swift */,
+				8BB473DB1CBE351B00DB4AB1 /* ItemDetailViewController.swift */,
+				8BE644851CE4A021004AAA14 /* IconPickerViewController.swift */,
+				8B6BFC4E1CF08A6F003720AA /* AboutViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		8BF2F4A31CDDF9A200052E1D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8B6E6E351C8DB284001F724F /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B6E6E2D1C8DB284001F724F /* CheckListTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B6E6E401C8DB284001F724F /* Build configuration list for PBXNativeTarget "CheckListTest" */;
+			buildPhases = (
+				8B6E6E2A1C8DB284001F724F /* Sources */,
+				8B6E6E2B1C8DB284001F724F /* Frameworks */,
+				8B6E6E2C1C8DB284001F724F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CheckListTest;
+			productName = CheckListTest;
+			productReference = 8B6E6E2E1C8DB284001F724F /* CheckListTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B6E6E261C8DB284001F724F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Shi Feng";
+				TargetAttributes = {
+					8B6E6E2D1C8DB284001F724F = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = CHFRPSEBLQ;
+					};
+				};
+			};
+			buildConfigurationList = 8B6E6E291C8DB284001F724F /* Build configuration list for PBXProject "CheckListTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B6E6E251C8DB284001F724F;
+			productRefGroup = 8B6E6E2F1C8DB284001F724F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B6E6E2D1C8DB284001F724F /* CheckListTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B6E6E2C1C8DB284001F724F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BBEC7821CF2FE7A0068E9C0 /* 微信分享图.png in Resources */,
+				8B6BFC561CF09421003720AA /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
+				8B6E6E391C8DB284001F724F /* Assets.xcassets in Resources */,
+				8B6BFC531CF08CC5003720AA /* Checklist.html in Resources */,
+				8B6E6E371C8DB284001F724F /* Main.storyboard in Resources */,
+				8B667A671CF1CAD500BDEA41 /* read_me.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B6E6E2A1C8DB284001F724F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B6E6E321C8DB284001F724F /* AppDelegate.swift in Sources */,
+				8BF2F4A01CDDF90D00052E1D /* ListDetailViewController.swift in Sources */,
+				8B6BFC4F1CF08A6F003720AA /* AboutViewController.swift in Sources */,
+				8B9986351CDB546600BFBFF9 /* ItemDetailViewController.swift in Sources */,
+				8BE644861CE4A021004AAA14 /* IconPickerViewController.swift in Sources */,
+				8BA5B5B41CEDB225000F43C9 /* MoreTableViewController.swift in Sources */,
+				8BC367971CDC8CD10084AFEC /* Checklist.swift in Sources */,
+				8B25D4321CB8EFBD00F24E20 /* ChecklistItem.swift in Sources */,
+				8BE7AB931CE3517E00E426B0 /* DataModel.swift in Sources */,
+				8BC367951CDC75B80084AFEC /* AllListsViewController.swift in Sources */,
+				8B6E6E441C8DB648001F724F /* CheckListViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8B6E6E351C8DB284001F724F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B6E6E361C8DB284001F724F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B6E6E3E1C8DB284001F724F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B6E6E3F1C8DB284001F724F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B6E6E411C8DB284001F724F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = CheckListTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/微信SDK1.6.2",
+				);
+				OTHER_LDFLAGS = "-fobjc-arc";
+				PRODUCT_BUNDLE_IDENTIFIER = sf.CheckListTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/shifeng/Desktop/CheckListTest/Bridge.h;
+			};
+			name = Debug;
+		};
+		8B6E6E421C8DB284001F724F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = CheckListTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/微信SDK1.6.2",
+				);
+				OTHER_LDFLAGS = "-fobjc-arc";
+				PRODUCT_BUNDLE_IDENTIFIER = sf.CheckListTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/shifeng/Desktop/CheckListTest/Bridge.h;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B6E6E291C8DB284001F724F /* Build configuration list for PBXProject "CheckListTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B6E6E3E1C8DB284001F724F /* Debug */,
+				8B6E6E3F1C8DB284001F724F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B6E6E401C8DB284001F724F /* Build configuration list for PBXNativeTarget "CheckListTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B6E6E411C8DB284001F724F /* Debug */,
+				8B6E6E421C8DB284001F724F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B6E6E261C8DB284001F724F /* Project object */;
+}
